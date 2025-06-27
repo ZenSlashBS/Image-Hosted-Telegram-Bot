@@ -2,20 +2,20 @@
 
 ![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)A Telegram bot to upload images to Freeimage.host and get shareable links instantly. Supports JPG, PNG, BMP, GIF, WEBP (up to 64MB), including animated GIFs, with a backup channel for tracking uploads.
 
-## âœ¨ Features
+## ✨ Features
 
 - Upload images and get direct links in seconds
 - Supports multiple formats and animated GIFs
 - Logs uploads to a backup channel
 - Inline buttons for easy navigation
 
-## ðŸš€ Usage
+## 🚀 Usage
 
 1. Start `@ImageHosterBot` with `/start`
 2. Send an image
 3. Get a shareable link with inline buttons
 
-## ðŸ› ï¸ Setup
+## 🛠️ Setup
 
 1. Clone the repo:
 
@@ -42,19 +42,19 @@
    python imghost.py
    ```
 
-## ðŸ“‹ Dependencies
+## 📋 Dependencies
 
 - python-telegram-bot (v20.0+)
 - requests
 
-## ðŸ¤ Contributing
+## 🤝 Contributing
 
 Submit pull requests or issues on GitHub.
 
-## ðŸ“œ License
+## 📜 License
 
 This tool is not licensed.
 
-## ðŸ“¬ Contact
+## 📬 Contact
 
 Check out more bots at t.me/xiebocbobcohoce/10.
