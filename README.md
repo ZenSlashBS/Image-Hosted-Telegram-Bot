@@ -1,6 +1,6 @@
 # Image Hoster Bot 📸
 
-![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)![License](https://img.shields.io/badge/License-Unlicensed-red)A Telegram bot that uploads images to Freeimage.host and delivers shareable links in a snap! Supports JPG, PNG, BMP, GIF, and WEBP (up to 64MB), including animated GIFs, with a backup channel to track uploads.
+![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)<br>A Telegram bot that uploads images to Freeimage.host and delivers shareable links in a snap! Supports JPG, PNG, BMP, GIF, and WEBP (up to 64MB), including animated GIFs, with a backup channel to track uploads.
 
 ## ✨ Features
 
