@@ -1,18 +1,19 @@
-Image Hoster Bot
+Image Hoster Bot 📸
 
-A Telegram bot to upload images to Freeimage.host and get shareable links instantly. Supports JPG, PNG, BMP, GIF, WEBP (up to 64MB), including animated GIFs, with a backup channel for tracking uploads.
+
+A sleek Telegram bot that uploads images to Freeimage.host and delivers shareable links in a snap! Supports JPG, PNG, BMP, GIF, and WEBP (up to 64MB), including animated GIFs, with a backup channel to track uploads.
 ✨ Features
 
-Upload images and get direct links in seconds
-Supports multiple formats and animated GIFs
-Logs uploads to a backup channel
-Inline buttons for easy navigation
+⚡ Upload images and get direct links instantly
+🖼️ Supports JPG, PNG, BMP, GIF, WEBP, and animated GIFs
+📜 Logs uploads to a backup channel for tracking
+🔘 Inline buttons for seamless navigation
 
 🚀 Usage
 
 Start @ImageHosterBot with /start
 Send an image
-Get a shareable link with inline buttons
+Receive a shareable link with inline buttons
 
 🛠️ Setup
 
@@ -24,12 +25,12 @@ Install dependencies:
 pip install python-telegram-bot requests
 
 
-Configure imghost.py with the following variables:
+Configure imghost.py with these variables:
 
-BOT_TOKEN: Your Telegram Bot Token from @BotFather
-API_KEY: Your Freeimage.host API key from Freeimage.host
-BACKUP_CHANNEL_ID: The Telegram channel ID (e.g., -1001234567890) where uploads are logged; ensure the bot has permission to send messages
-UPLOAD_URL: The Freeimage.host API endpoint (default: https://freeimage.host/api/1/upload)
+BOT_TOKEN: Get your Telegram Bot Token from @BotFather
+API_KEY: Obtain your Freeimage.host API key from Freeimage.host
+BACKUP_CHANNEL_ID: Telegram channel ID (e.g., -1001234567890) for logging uploads; ensure bot has send message permissions
+UPLOAD_URL: Freeimage.host API endpoint (default: https://freeimage.host/api/1/upload)
 
 
 Run the bot:
@@ -43,8 +44,10 @@ python-telegram-bot (v20.0+)
 requests
 
 🤝 Contributing
-Submit pull requests or issues on GitHub.
+Got ideas? Submit pull requests or open issues on GitHub.
 📜 License
-This tool is not licensed.
+This project is unlicensed.
 📬 Contact
-Check out more bots at t.me/xiebocbobcohoce/10.
+Explore more bots at t.me/xiebocbobcohoce/10.
+
+⭐ Star the repo if you find it useful! ⭐
