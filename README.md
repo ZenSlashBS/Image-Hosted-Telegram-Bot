@@ -26,7 +26,7 @@
 2. Install dependencies:
 
    ```bash
-   pip install python-telegram-bot requests
+   pip install python-telegram-bot requests asycnio
    ```
 
 3. Configure `imghost.py` with the following variables:
