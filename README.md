@@ -1,42 +1,43 @@
-# Image Hoster Bot
+# Image Hoster Bot 📸
 
-![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)<br> A Telegram bot to upload images to Freeimage.host and get shareable links instantly. Supports JPG, PNG, BMP, GIF, WEBP (up to 64MB), including animated GIFs, with a backup channel for tracking uploads.
+![Telegram](https://img.shields.io/badge/Telegram-Bot-blue?logo=telegram)![Python](https://img.shields.io/badge/Python-3.8+-blue?logo=python)![License](https://img.shields.io/badge/License-Unlicensed-red)A Telegram bot that uploads images to Freeimage.host and delivers shareable links in a snap! Supports JPG, PNG, BMP, GIF, and WEBP (up to 64MB), including animated GIFs, with a backup channel to track uploads.
 
 ## ✨ Features
 
-- Upload images and get direct links in seconds
-- Supports multiple formats and animated GIFs
-- Logs uploads to a backup channel
-- Inline buttons for easy navigation
+- ⚡ Upload images and get direct links instantly
+- 🖼️ Supports JPG, PNG, BMP, GIF, WEBP, and animated GIFs
+- 📜 Logs uploads to a backup channel for tracking
+- 🔘 Inline buttons for seamless navigation
 
 ## 🚀 Usage
 
 1. Start `@ImageHosterBot` with `/start`
 2. Send an image
-3. Get a shareable link with inline buttons
+3. Receive a shareable link with inline buttons
 
 ## 🛠️ Setup
 
-1. Clone the repo:
+1. **Clone the repo**:
 
    ```bash
    git clone https://github.com/ZenSlashBS/Image-Hoster-Telegram-Bot.git
    ```
 
-2. Install dependencies:
+2. **Install dependencies**:\
+   Create a `requirements.txt` file (included in the repo) and run:
 
    ```bash
-   pip install python-telegram-bot requests asycnio
+   pip install -r requirements.txt
    ```
 
-3. Configure `imghost.py` with the following variables:
+3. **Configure** `imghost.py` with these variables:
 
-   - `BOT_TOKEN`: Your Telegram Bot Token from @BotFather
-   - `API_KEY`: Your Freeimage.host API key from Freeimage.host
-   - `BACKUP_CHANNEL_ID`: The Telegram channel ID (e.g., `-1001234567890`) where uploads are logged; ensure the bot has permission to send messages
-   - `UPLOAD_URL`: The Freeimage.host API endpoint (default: `https://freeimage.host/api/1/upload`)
+   - `BOT_TOKEN`: Get your Telegram Bot Token from @BotFather
+   - `API_KEY`: Obtain your Freeimage.host API key from Freeimage.host
+   - `BACKUP_CHANNEL_ID`: Telegram channel ID (e.g., `-1001234567890`) for logging uploads; ensure bot has send message permissions
+   - `UPLOAD_URL`: Freeimage.host API endpoint (default: `https://freeimage.host/api/1/upload`)
 
-4. Run the bot:
+4. **Run the bot**:
 
    ```bash
    python imghost.py
@@ -44,18 +45,22 @@
 
 ## 📋 Dependencies
 
-- python-telegram-bot
+- python-telegram-bot (v20.0+)
 - requests
-- asyinco
+- asyncio (built-in with Python 3.8+)
 
 ## 🤝 Contributing
 
-Submit pull requests or issues on GitHub.
+Got ideas? Submit pull requests or open issues on GitHub.
 
 ## 📜 License
 
-This tool is not licensed.
+This project is unlicensed.
 
 ## 📬 Contact
 
-Check out more bots at t.me/xiebocbobcohoce/10.
+Explore more bots at t.me/xiebocbobcohoce/10.
+
+---
+
+⭐ **Star the repo if you find it useful!** ⭐
