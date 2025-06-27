@@ -44,8 +44,9 @@
 
 ## 📋 Dependencies
 
-- python-telegram-bot (v20.0+)
+- python-telegram-bot
 - requests
+- asyinco
 
 ## 🤝 Contributing
 
