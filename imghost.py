@@ -5,10 +5,10 @@ import requests
 import asyncio
 
 # Bot configuration
-BOT_TOKEN = "7958062748:AAECnRLxaeUMvofwyWDSxIS6EIsJ7J4LrVA"
-BACKUP_CHANNEL_ID = "-1002689983399"
-API_KEY = "6d207e02198a847aa98d0a2a901485a5"
-UPLOAD_URL = "https://freeimage.host/api/1/upload"
+BOT_TOKEN = ""  # Replace with your Telegram Bot Token from @BotFather
+BACKUP_CHANNEL_ID = ""  # Replace with your Telegram channel ID (e.g., -1001234567890) where uploads are logged; bot must have send message permissions
+API_KEY = ""  # Replace with your Freeimage.host API key from https://freeimage.host/
+UPLOAD_URL = "https://freeimage.host/api/1/upload"  # Freeimage.host API endpoint (usually no need to change)
 
 async def start(update, context):
     # Create inline button for More Bots
