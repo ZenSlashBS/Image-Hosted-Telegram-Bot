@@ -63,4 +63,4 @@ Explore more bots at t.me/xiebocbobcohoce/10.
 
 ---
 
-⭐ **Star the repo if you find it useful!** ⭐
+⭐ **Star the repo if you find it useful!**
